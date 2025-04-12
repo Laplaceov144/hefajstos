@@ -31,7 +31,7 @@ def start_recording(url):
     
     finally:
 
-        # Transform the list of characters into a list of concatenated text expressions
+        # Transform the list of recorded characters into a list of concatenated text expressions
         fetched_chars = []
         with open('recorded_elements.json', 'r') as f:
             actions = json.load(f)
